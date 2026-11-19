@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  margin: 0;
+  padding: 24px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th,
+td {
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f4f6;
+}
+
+.qty-btn {
+  padding: 4px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.qty-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.qty-value {
+  display: inline-block;
+  min-width: 24px;
+  text-align: center;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.remove-btn {
+  padding: 5px 10px;
+  background-color: #ef4444;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #dc2626;
+}
+
+.summary {
+  margin-top: 20px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.empty-msg {
+  padding: 16px 0;
+  font-size: 16px;
+  color: #4b5563;
+}
